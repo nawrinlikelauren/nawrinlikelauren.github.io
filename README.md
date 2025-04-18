@@ -1,3 +1,1 @@
-# nawrinlikelauren.github.io
-
-this is a test. 
+Find out more about [me!](https://nawrinlikelauren.github.io)
