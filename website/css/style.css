@@ -53,3 +53,14 @@ h1 {
 h1:hover {
     color: #1dffc7;
 }
+
+@font-face {
+    font-family: 'Special Gothic Expanded One';
+    src: url('fonts/SpecialGothicExpandedOne.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  h1 {
+    font-family: 'Special Gothic Expanded One', sans-serif;
+  }
