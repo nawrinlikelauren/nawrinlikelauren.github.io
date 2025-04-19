@@ -1,8 +1,8 @@
 /* entire background styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #000000;
     color: #1124ff; /* rest of the text color */
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ body {
 
 /* navigation bar styling */
 nav {
-    background-color: #825151;
+    background-color: #000000;
     padding: 10px 0;
 }
 
@@ -32,7 +32,7 @@ nav ul li {
 /* navigation texts */
 nav ul li a {
     text-decoration: none;
-    color: rgb(233, 171, 171); /* text color */
+    color: rgb(255, 255, 255); /* text color */
     font-size: 18px;
 }
 
@@ -45,7 +45,7 @@ nav ul li a:hover {
 h1 {
     margin-top: 50px;
     cursor: pointer;
-    color: #cdda40;
+    color: #ffffff;
     transition: color 0.3s ease;
 }
 
