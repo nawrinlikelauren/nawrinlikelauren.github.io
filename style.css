@@ -1,47 +1,56 @@
 /* Set the font and background color for the entire page */
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  background-color: #f4f4f4;
-  color: #434343;
-  margin: 0;
-  padding: 0;
-}
-/* Navigation Bar Styling */
-nav {
-  background-color: #f5f5f5;
-  padding: 10px 0;
-}
-/* Styling for the navigation list */
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-}
-/* Space out navigation items */
-nav ul li {
-  margin: 0 15px;
-}
-/* Navigation links styling */
-nav ul li a {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-}
-/* Hover effect for navigation links */
-nav ul li a:hover {
-  color: #c4c3c1;
-}
-/* Styling for the header */
-h1 {
-  margin-top: 50px;
-  cursor: pointer;
-  color: #000;
-  transition: color 0.3s ease;
-}
-/* Change header color when hovered */
-h1:hover {
-  color: #afaeb3;
-}
+    font-family: 'Special Gothic Expanded One', sans-serif;
+    text-align: center;
+    background-color: #000000;
+    color: #434343;
+    margin: 0;
+    padding: 0;
+  }
+  /* Navigation Bar Styling */
+  nav {
+    background-color: #000000;
+    padding: 10px 50px 10px 10px;
+    justify-content: space-between;
+    font-family: 'Special Gothic Expanded One', sans-serif;
+  }
+  /* Styling for the navigation list */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  /* Space out navigation items */
+  nav ul li {
+    margin: 0 15px;
+  }
+  /* Navigation links styling */
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  /* Hover effect for navigation links */
+  nav ul li a:hover {
+    color: #c4c3c1;
+  }
+  /* Styling for the header */
+  h1 {
+    margin: 50px;
+    cursor: pointer;
+    color: #ffffff;
+    transition: color 0.3s ease;
+  }
+  /* Change header color when hovered */
+  h1:hover {
+    color: #afaeb3;
+  }
+  
+  .logo {
+    font-family: 'Special Gothic Expanded One', sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
