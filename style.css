@@ -1,4 +1,4 @@
-/* Set the font and background color for the entire page */
+/* setting parameters for the entire page */
 body {
     font-family: 'Special Gothic Expanded One', sans-serif;
     text-align: center;
@@ -7,50 +7,52 @@ body {
     margin: 0;
     padding: 0;
   }
-  /* Navigation Bar Styling */
+
+  /* setting up navigation bar */
   nav {
+    display: flex;                  
+    justify-content: space-between;   
+    align-items: center;             
     background-color: #000000;
     padding: 10px 50px 10px 10px;
-    justify-content: space-between;
     font-family: 'Special Gothic Expanded One', sans-serif;
+  }
+
+  /* nav bar right - styling */
+  .nav-right li {
+    margin: 0 15px;
+  }
+  .nav-right li a:hover {
+    color: #c4c3c1;
   }
   /* Styling for the navigation list */
   nav ul {
-    list-style: none;
-    padding: 0;
     margin: 0;
     display: flex;
-    justify-content: flex-end;
   }
-  /* Space out navigation items */
-  nav ul li {
-    margin: 0 15px;
-  }
+ 
   /* Navigation links styling */
   nav ul li a {
     text-decoration: none;
     color: white;
     font-size: 18px;
   }
-  /* Hover effect for navigation links */
+  /* hover effect for nav links */
   nav ul li a:hover {
     color: #c4c3c1;
   }
-  /* Styling for the header */
-  h1 {
-    margin: 50px;
-    cursor: pointer;
-    color: #ffffff;
-    transition: color 0.3s ease;
-  }
-  /* Change header color when hovered */
-  h1:hover {
-    color: #afaeb3;
-  }
-  
-  .logo {
+
+
+/* logo/left hand side styling */
+.logo {
     font-family: 'Special Gothic Expanded One', sans-serif;
     color: white;
     font-size: 24px;
     font-weight: bold;
   }
+  .logo:hover,
+.nav-left:hover {
+  color: #c4c3c1;    
+  cursor: pointer;     
+  transition: color 0.3s ease;  
+}
