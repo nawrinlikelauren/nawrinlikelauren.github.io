@@ -24,12 +24,13 @@ body {
   nav ul {
     margin: 0;
     display: flex;
+    list-style: none;
   }
  
   /* Navigation links styling */
   nav ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 18px;
   }
   /* hover effect for nav links */
@@ -47,7 +48,7 @@ body {
   }
   .logo:hover,
 .nav-left:hover {
-  color: #c4c3c1;    
+  color: #ffffff;    
   cursor: pointer;     
   transition: color 0.3s ease;  
 }
@@ -67,27 +68,31 @@ body {
   }
 
 
-/* profile pic & header text */
+  .profile-container {
+    position: relative;
+    width: 350px;  /* match your profile picture size */
+    height: 350px;
+    margin-left: 200px; /* move the whole thing where you want */
+    margin-top: 30px;
+  }
+  
+  .profile-bg {
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 450px;   
+    height: 450px;
+    z-index: 0;     
+    opacity: 1;    
+  }
+  
   .profile-pic {
-    width: 400px;
-    height: 400px;
+    position: relative;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     object-fit: cover;
-    margin-right: 50px; /* space between image and text */
+    margin-right: 50px; 
+    z-index: 1;    
   }
   
-  .intro-container {
-    display: flex;
-    align-items: flex-start; /* vertically center image + text */
-    justify-content: flex-start; /* center whole block horizontally */
-    margin-top: 50px;
-    padding: 0 100px;
-    flex-wrap: wrap; /* allows wrapping on smaller screens */
-  }
-  
-  .intro-container h1 {
-    font-size: 70px;
-    color: white;
-    text-align: left;
-    margin-top: 40px;
-  }
