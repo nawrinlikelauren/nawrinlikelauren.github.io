@@ -5,26 +5,21 @@ body {
     background-color: #000000;
     color: #434343;
     margin: 0;
-    padding: 0;
   }
 
   /* setting up navigation bar */
   nav {
     display: flex;                  
-    justify-content: space-between;   
-    align-items: center;             
+    justify-content: space-between;              
     background-color: #000000;
     padding: 10px 50px 10px 10px;
-    font-family: 'Special Gothic Expanded One', sans-serif;
   }
 
   /* nav bar right - styling */
   .nav-right li {
     margin: 0 15px;
   }
-  .nav-right li a:hover {
-    color: #c4c3c1;
-  }
+
   /* Styling for the navigation list */
   nav ul {
     margin: 0;
@@ -42,13 +37,13 @@ body {
     color: #c4c3c1;
   }
 
-
 /* logo/left hand side styling */
 .logo {
-    font-family: 'Special Gothic Expanded One', sans-serif;
+    text-decoration: none;
     color: white;
     font-size: 24px;
     font-weight: bold;
+    margin: 0 15px;
   }
   .logo:hover,
 .nav-left:hover {
@@ -56,3 +51,43 @@ body {
   cursor: pointer;     
   transition: color 0.3s ease;  
 }
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 15px;
+  }
+  
+  .logo a:hover {
+    color: #c4c3c1;    
+    cursor: pointer;     
+    transition: color 0.3s ease;
+  }
+
+
+/* profile pic & header text */
+  .profile-pic {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 50px; /* space between image and text */
+  }
+  
+  .intro-container {
+    display: flex;
+    align-items: flex-start; /* vertically center image + text */
+    justify-content: flex-start; /* center whole block horizontally */
+    margin-top: 50px;
+    padding: 0 100px;
+    flex-wrap: wrap; /* allows wrapping on smaller screens */
+  }
+  
+  .intro-container h1 {
+    font-size: 70px;
+    color: white;
+    text-align: left;
+    margin-top: 40px;
+  }

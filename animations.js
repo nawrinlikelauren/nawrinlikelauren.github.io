@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const header = document.getElementById("header");
+  const logo = document.getElementById("logo");
   // Add a click event listener to h1
-  header.addEventListener("click", function () {
+  logo.addEventListener("click", function () {
     alert(" hi ");
   });
 });
