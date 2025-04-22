@@ -20,20 +20,19 @@ body {
     margin: 0 15px;
   }
 
-  /* Styling for the navigation list */
+  /* styling for the navigation list */
   nav ul {
     margin: 0;
     display: flex;
     list-style: none;
   }
- 
-  /* Navigation links styling */
+
   nav ul li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 18px;
   }
-  /* hover effect for nav links */
+
   nav ul li a:hover {
     color: #c4c3c1;
   }
@@ -46,6 +45,7 @@ body {
     font-weight: bold;
     margin: 0 15px;
   }
+  
   .logo:hover,
 .nav-left:hover {
   color: #ffffff;    
@@ -60,22 +60,33 @@ body {
     font-weight: bold;
     margin: 0 15px;
   }
-  
+
   .logo a:hover {
     color: #c4c3c1;    
     cursor: pointer;     
     transition: color 0.3s ease;
   }
 
-
+/* profile pic */
   .profile-container {
     position: relative;
-    width: 350px;  /* match your profile picture size */
-    height: 350px;
-    margin-left: 200px; /* move the whole thing where you want */
+    width: 360px; 
+    height: 360px;
+    margin-left: 200px; 
     margin-top: 30px;
   }
-  
+
+  .profile-pic {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 50px; 
+    z-index: 1;    
+  }
+
+  /* background picture */
   .profile-bg {
     position: absolute;
     top: -50px;
@@ -86,13 +97,25 @@ body {
     opacity: 1;    
   }
   
-  .profile-pic {
-    position: relative;
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-right: 50px; 
-    z-index: 1;    
+  .background-picture {
+    position: absolute;
+    top: -60px;
+    left: -60px;
+    width: 470px;  
+    height: 470px;
+    z-index: 0;
+    opacity: 1;
+    transition: transform 1s ease-in-out; 
+    transform: scale(0);  
+    animation: slowSpin 60s linear infinite;
   }
   
+
+  @keyframes slowSpin {
+    0% {
+      transform: rotate(0deg);  
+    }
+    100% {
+      transform: rotate(360deg);  
+    }
+  }
