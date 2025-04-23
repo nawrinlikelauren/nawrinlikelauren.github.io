@@ -89,10 +89,10 @@ body {
   /* background picture */
   .profile-bg {
     position: absolute;
-    top: -50px;
-    left: -50px;
-    width: 450px;   
-    height: 450px;
+    top: -60px;
+    left: -60px;
+    width: 470px;   
+    height: 460px;
     z-index: 0;     
     opacity: 1;    
   }
