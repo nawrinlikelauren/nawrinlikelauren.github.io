@@ -86,7 +86,7 @@ body {
     z-index: 1;    
   }
 
-  /* background picture */
+/* background picture */
   .profile-bg {
     position: absolute;
     top: -60px;
@@ -109,7 +109,6 @@ body {
     transform: scale(0);  
     animation: slowSpin 60s linear infinite;
   }
-  
 
   @keyframes slowSpin {
     0% {
