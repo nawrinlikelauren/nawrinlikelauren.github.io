@@ -12,7 +12,6 @@ embed {
   margin-top: 40px;
   text-align: center;
 }
-
 .resume-embed {
   margin-top: 40px;
   width: 80%;
@@ -20,7 +19,7 @@ embed {
   margin-right: auto;
 }
 
-/* embedded pdf sizing */
+/* pdf sizing */
 .resume-embed embed {
   display: block;
   width: 100%;

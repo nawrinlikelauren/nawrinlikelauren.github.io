@@ -36,7 +36,6 @@
   text-decoration: none;
   font-weight: bold;
 }
-
 .projects-list .project-item a:hover {
   color: #c4c3c1 !important;
   text-decoration: underline;
