@@ -1,0 +1,73 @@
+/* projects title */
+.shake {
+  width: 700px;
+  display: inline-block;
+  animation: turnshake 0.90s infinite ease-in-out;
+}
+
+@keyframes turnshake {
+  0%   { transform: rotate(0deg); }
+  20%  { transform: rotate(3deg); }
+  40%  { transform: rotate(3deg); }
+  60%  { transform: rotate(0deg); }
+  80%  { transform: rotate(3deg); }
+  100% { transform: rotate(0deg); }
+}
+
+/* projects list layout */
+.projects-list {
+  margin-top: 80px;
+  text-align: left;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projects-list ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* white + big bullets */
+.projects-list ul li::marker {
+  color: white;
+  font-size: 30px;
+}
+
+/* project text */
+.project-item {
+  margin-bottom: 30px;
+  font-size: 26px;
+  color: white;
+}
+
+/* project list font */
+.projects-list .project-item a,
+.projects-list .project-item a:visited {
+  color: white !important;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.projects-list .project-item a:hover {
+  color: #c4c3c1 !important;
+  text-decoration: underline;
+}
+
+/* tag container */
+.tags {
+  margin-top: 8px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* individual tag boxes */
+.tag {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 15px;
+  border: 1px solid #333;
+}

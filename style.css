@@ -1,4 +1,4 @@
-/* setting parameters for the entire page */
+/* setting parameters for whole page */
 body {
     font-family: 'Special Gothic Expanded One', sans-serif;
     text-align: center;
@@ -7,7 +7,7 @@ body {
     margin: 0;
   }
 
-  /* setting up navigation bar */
+  /* setting up nav bar */
   nav {
     display: flex;                  
     justify-content: space-between;              
@@ -15,12 +15,12 @@ body {
     padding: 10px 50px 10px 10px;
   }
 
-  /* nav bar right - styling */
+  /* styling nav bar */
   .nav-right li {
     margin: 0 15px;
   }
 
-  /* styling for the navigation list */
+  /* style for nav list */
   nav ul {
     margin: 0;
     display: flex;
@@ -37,7 +37,7 @@ body {
     color: #c4c3c1;
   }
 
-/* logo/left hand side styling */
+/* logo styling */
 .logo {
     text-decoration: none;
     color: white;
