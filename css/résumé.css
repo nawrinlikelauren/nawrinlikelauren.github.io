@@ -13,13 +13,6 @@ embed {
   text-align: center;
 }
 
-.resume-title .shake {
-  width: 600px;
-  display: inline-block;
-  animation: turnshake 0.90s infinite ease-in-out;
-  margin-bottom: 10px;
-}
-
 .resume-embed {
   margin-top: 40px;
   width: 80%;
@@ -42,7 +35,6 @@ embed {
   animation: turnshake 0.90s infinite ease-in-out;
   margin-bottom: 10px;
 }
-
 @keyframes turnshake {
   0%   { transform: rotate(0deg); }
   20%  { transform: rotate(3deg); }

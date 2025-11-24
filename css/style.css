@@ -26,33 +26,16 @@ body {
     display: flex;
     list-style: none;
   }
-
   nav ul li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 18px;
   }
-
   nav ul li a:hover {
     color: #c4c3c1;
   }
 
 /* logo styling */
-.logo {
-    text-decoration: none;
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-    margin: 0 15px;
-  }
-  
-  .logo:hover,
-.nav-left:hover {
-  color: #ffffff;    
-  cursor: pointer;     
-  transition: color 0.3s ease;  
-}
-
 .logo a {
     text-decoration: none;
     color: white;
@@ -60,7 +43,6 @@ body {
     font-weight: bold;
     margin: 0 15px;
   }
-
   .logo a:hover {
     color: #c4c3c1;    
     cursor: pointer;     
@@ -75,7 +57,6 @@ body {
     margin-left: 200px; 
     margin-top: 30px;
   }
-
   .profile-pic {
     position: relative;
     width: 350px;
@@ -87,34 +68,66 @@ body {
   }
 
 /* background picture */
-  .profile-bg {
-    position: absolute;
-    top: -60px;
-    left: -60px;
-    width: 470px;   
-    height: 460px;
-    z-index: 0;     
-    opacity: 1;    
-  }
-  
   .background-picture {
     position: absolute;
     top: -60px;
     left: -60px;
     width: 470px;  
     height: 470px;
-    z-index: 0;
-    opacity: 1;
-    transition: transform 1s ease-in-out; 
-    transform: scale(0);  
-    animation: slowSpin 60s linear infinite;
   }
 
-  @keyframes slowSpin {
-    0% {
-      transform: rotate(0deg);  
-    }
-    100% {
-      transform: rotate(360deg);  
-    }
-  }
+/* text layout */
+.intro-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 160px;
+  margin-top: 70px;
+}
+.intro-section {
+  max-width: 700px;
+  text-align: left;
+  color: white;
+}
+.intro-section p {
+  font-size: 20px;
+  text-align: left; 
+}
+.intro-text {
+  font-size: 30px;
+  line-height: 1.6;
+  color: #c4c4c4;
+}
+
+/* tilt & shake animation */
+.shake {
+  width: 700px; 
+  display: inline-block;
+  animation: turnshake 0.90s infinite ease-in-out;
+  margin-bottom: 10px;
+}
+@keyframes turnshake {
+  0%   { transform: rotate(0deg); }
+  20%  { transform: rotate(3deg); }
+  40%  { transform: rotate(3deg); }
+  60%  { transform: rotate(0deg); }
+  80%  { transform: rotate(3deg); }
+  100% { transform: rotate(0deg); }
+}
+
+/* connect & contact with me section */
+.intro-link {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.intro-link:visited {
+  color: white;
+}
+.intro-link:hover {
+  color: #c4c3c1;
+  text-decoration: underline;
+}
+.underline {
+  text-decoration: underline;
+}

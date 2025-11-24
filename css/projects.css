@@ -4,7 +4,6 @@
   display: inline-block;
   animation: turnshake 0.90s infinite ease-in-out;
 }
-
 @keyframes turnshake {
   0%   { transform: rotate(0deg); }
   20%  { transform: rotate(3deg); }
@@ -23,17 +22,6 @@
   margin-right: auto;
 }
 
-.projects-list ul {
-  list-style-type: disc;
-  padding-left: 20px;
-}
-
-/* white + big bullets */
-.projects-list ul li::marker {
-  color: white;
-  font-size: 30px;
-}
-
 /* project text */
 .project-item {
   margin-bottom: 30px;
@@ -41,7 +29,7 @@
   color: white;
 }
 
-/* project list font */
+/* project font */
 .projects-list .project-item a,
 .projects-list .project-item a:visited {
   color: white !important;
@@ -62,7 +50,7 @@
   flex-wrap: wrap;
 }
 
-/* individual tag boxes */
+/* tag boxes */
 .tag {
   background-color: #1a1a1a;
   color: white;
